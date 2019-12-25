@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Pizza PHD</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="start">START</string>
 </resources>

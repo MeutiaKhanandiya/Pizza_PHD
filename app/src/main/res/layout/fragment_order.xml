@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logobg"
+    tools:context=".Fragments.OrderFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/teks1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" PILIH PESANAN ANDA "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorBlack"
+                android:typeface="serif" />
+
+            <RadioButton
+                android:id="@+id/radio_pepperoni_pizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pepperoni Pizza" />
+
+            <RadioButton
+                android:id="@+id/radio_veggie_pizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Veggie Pizza" />
+
+            <RadioButton
+                android:id="@+id/radio_splitza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Splitza Pizza" />
+
+            <RadioButton
+                android:id="@+id/radio_splitza_classic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Splitza Classic Pizza" />
+
+            <RadioButton
+                android:id="@+id/radio_hawaiian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hawaiian Pizza" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/text_nama"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="64dp"
+            android:ems="10"
+            android:hint="Masukkan Nama Pemesan"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/radio_group"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/text_jumlah"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:hint="Masukkan jumlah"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radio_group" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="16dp"
+            android:text="Beli"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_jumlah" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.025" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

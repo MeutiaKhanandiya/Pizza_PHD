@@ -15,13 +15,13 @@ import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import com.meutia.myapplication.Activities.OrderActivity;
 import com.meutia.myapplication.R;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class OrderFragment extends Fragment {
-
+public class OrderFragment extends Fragment implements View.OnClickListener {
 
     View view;
     Button submit;
@@ -83,5 +83,4 @@ public class OrderFragment extends Fragment {
             Toast.makeText(getActivity(), "Please select equipment and your name !", Toast.LENGTH_SHORT).show();
         }
     }
-
 }

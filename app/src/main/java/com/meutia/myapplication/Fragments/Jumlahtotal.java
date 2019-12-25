@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.meutia.myapplication.Activities.OrderActivity;
 import com.meutia.myapplication.R;
 
 /**
@@ -33,8 +34,11 @@ public class Jumlahtotal extends Fragment {
         Bundle data = this.getArguments();
 
         items = data.getParcelable("shop");
-        String dat = items.getNama()+" Total biaya anda "+items.getJumlah();
+        String dat = items.getNama() + " Total biaya anda " + items.getJumlah();
         textView.setText(dat);
+
+        return view;
     }
 
 }
+

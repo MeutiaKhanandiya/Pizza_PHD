@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".Fragments.ItemFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="333dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/teks1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" HOT PROMO "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorWhite"
+                    android:typeface="serif" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="68dp"
+                    android:layout_height="51dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/pepperoni" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="With pepperoni, mozzarella cheese, parsley and a special PHD sauce."
+                    android:textColor="@color/colorWhite" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="70dp"
+                    android:layout_height="53dp"
+                    android:src="@drawable/hawaiian" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="With pineapple, chicken meat, bell peppers, mozzarella cheese and spicy tomato sauce"
+                    android:textColor="@color/colorWhite" />
+
+                <ImageView
+                    android:id="@+id/supreme"
+                    android:layout_width="74dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/supreme" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:text="Dengan pepperoni, daging sapi, jamur, nanas, paprika hijau, keju mozzarella, dan saus special PHD." />
+
+                <ImageView
+                    android:layout_width="78dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/veggie" />
+
+                <TextView
+                    android:id="@+id/vegiegarden"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:text="Dengan jamur, paprika merah dan hijau, nanas, jagung, keju mozzarella dan saus spesial PHD." />
+
+                <ImageView
+                    android:id="@+id/Splitza"
+                    android:layout_width="98dp"
+                    android:layout_height="77dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/splitza" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:text="2 topping favorit – American Favourite dan Meat Lovers tersaji dalam 1 pizza!" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

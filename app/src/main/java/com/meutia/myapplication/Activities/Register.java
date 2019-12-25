@@ -13,8 +13,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.meutia.myapplication.R;
+import com.meutia.myapplication.Util.User;
 
-import java.security.Security;
+import com.meutia.myapplication.Util.Security;
 
 public class Register extends AppCompatActivity {
 
